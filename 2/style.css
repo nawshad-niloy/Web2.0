@@ -1,0 +1,133 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+.text-high {
+  color: rgba(255, 26, 115, 255);
+  font-weight: 700;
+}
+
+p {
+  color: #0c0404;
+  padding-bottom: 5%;
+}
+section {
+  height: 100vh;
+  width: 100vw;
+  padding-bottom: 100px;
+  margin-bottom: 50px;
+}
+.half {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 3%;
+  margin-top: 50px;
+}
+.half img {
+  width: 90%;
+}
+h1 {
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+  color: azure;
+  background-image: linear-gradient(45deg, #ff61d2, #fe9090);
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.top {
+  background-image: url(image/header-bg.png);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+h3 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.bio {
+  background-image: url(image/biography-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.exp {
+  background-image: url(image/latest-work-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 460px;
+}
+.exp h1 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.work {
+  margin: 0 0px 0 60px;
+}
+
+.work img {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+.work img :hover {
+  transform: scale(1.15);
+}
+
+#review {
+  text-align: center;
+  font-size: 60px;
+}
+#format {
+  text-align: center;
+  font-size: 30px;
+}
+.rev p {
+  text-align: center;
+  margin-bottom: -60px;
+}
+
+.quote-container {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 80px;
+}
+
+.quote-container p {
+  font-size: 25px;
+}
+
+.client {
+  background-image: url(image/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.client a {
+  background-image: linear-gradient(45deg, #ec5095, #ed4b71);
+  color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  width: 630px;
+  height: 90px;
+  margin-left: 400px;
+  margin-top: 90px;
+  position: relative;
+  top: 100px;
+  left: 11%;
+}
+
+footer p {
+  text-align: center;
+  font-size: 12px;
+}
